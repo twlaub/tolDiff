@@ -5,9 +5,12 @@ This is a one-file python script that uses the Hunt–McIlroy algorithm to find 
 The results of the algorithm are saved in a list which is then processed to remove 
 diffs due to numerical differences within specified tolerances.
 
+>python tolDiff.py -h to see inputs and options.
+
 No optimizations to the Hunt–McIlroy algorithm have been implemented and will
 not be as the intended use of the script does not require it. I built this
 script for a single purpose for a program I used to work on before retiring.
+In addition the usual gnu diff options are not implemented for the same reason.
 
 I do not intend to market this software. It is free to all users without 
 any reservation on my part. The software does contain functions that I 
